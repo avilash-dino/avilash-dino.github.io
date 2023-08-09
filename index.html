@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Avilash's Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  .section {
+    margin-bottom: 2rem;
+  }
+  .section-header {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .project {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+</style>
 </head>
 <body>
-    hello gokul ffrom avi
+  <header>
+    <h1>Avilash's Portfolio</h1>
+  </header>
+  <div class="container">
+    <div class="section">
+      <h2 class="section-header">About Me</h2>
+      <p>Hello! I'm Avilash, a passionate web developer.</p>
+    </div>
+    <div class="section">
+      <h2 class="section-header">Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>This is a description of my first project.</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>This is a description of my second project.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
